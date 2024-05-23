@@ -1,0 +1,34 @@
+body {
+
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/a99688ca-33c3-4099-9baa-07a2e2acb398/11a2880b-ce4f-432a-ba83-dd3c46d84e1a/AU-en-20240520-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 91.5vh;
+    width: 100%;
+    
+    position: relative;
+
+
+}
+
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+
+    position: absolute;
+
+    z-index: 1;
+}
+
+
+
+
+.card{
+    position: relative;
+    z-index: 2;
+    
+}
